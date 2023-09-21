@@ -32,11 +32,15 @@ body {
 }
 
 .text-above {
-    top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    top: -100px; /* Ajusta la posición vertical del texto arriba de la flor */
 }
 
 .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    bottom: -110px; /* Ajusta la posición vertical del texto debajo de la flor */
 }
 @keyframes pulsate {
   0% {
@@ -144,14 +148,3 @@ body {
   .Petal3.p4 {
     transform: rotate(157.5deg);
   }
-
-.tallo{
-  display: inline-flex;
-  position: absolute;
-  bottom: 50px;
-  z-index: 1;
-  left: 340px;
-  width: 40px;
-  height: 350px;
-  background-color: green;
-}
