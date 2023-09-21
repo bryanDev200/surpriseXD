@@ -10,7 +10,7 @@ body {
 .flower {
   height: 200px;
   width: 200px;
-  margin: 200px auto;
+  margin: 200px; 
 
   display: flex;
   align-items: center;
@@ -146,8 +146,12 @@ body {
   }
 
 .tallo{
-  margin-left: 90px;
-  width: 30px;
-  height: 100px;
+  display: inline-flex;
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+  left: 340px;
+  width: 40px;
+  height: 350px;
   background-color: green;
 }
